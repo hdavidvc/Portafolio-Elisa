@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <h2 id="logo">LOGO</h2>
+                <div id="">
+                    <a class="nav-option active" href="#person" id="hola" onclick="menu(event)">hola</a>
+                    <a class="nav-option" href="#proyecto" id="proyectos" onclick="menu(event)">proyectos</a>
+                    <a class="nav-option" href="#contact" id="hablemos" onclick="menu(event)">hablemos</a>
+                </div>
+                <a href="https://www.github.com/hdavidvc" target="_blank" id="btn-cv">DESCARGAR CURRICULUM</a>
+            </nav>
+        </header>
+        <div id="person" class="data-person">
+            <div class="person">
+                <img src="./images/person.png" alt="foto de elisa">
+            </div>
+            <div class="person-descrip">
+                <div class="title">
+                    <h3 id="saludo">¡Hola a todos!</h3>
+                    <h2>Soy Elisa</h2>
+                </div>
+                <p id="person-data">Una Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+                <div class="social">
+                    <a href="tel:8097808081"><img src="./icons/icon-phone.svg" alt="phone icon"></a>
+                    <a href="mailto:davidrd372@gmail.com"><img src="./icons/icon-important_mail.svg" alt="main icon"></a>
+                    <a href="https://www.instagram.com/hdavidvc" target="_blank"><img src="./icons/icon-instagram.svg" alt="instagram icon"></a>
+                    <a href="https://www.twitter.com/hdavidvc" target="_blank"><img src="./icons/icon-twitter_squared.svg" alt="twitter icon"></a>
+                </div>
+            </div>
+        </div>
+        <div class="coment">
+            <p id="coment-decripcion">A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles</p>
+            <p id="coment-proyect">Aquí hay algunos que me gustaría compartir.</p>
+            <div class="arrow"><img src="./icons/icons-down.svg" alt="flecha abajo"></div>
+        </div>
+        <div id="proyecto">
+            <div class="data">
+                <img class="data-img" src="./images/leonidas.png" alt="leonidasesteban.com">
+                <div class="data-content">
+                    <div class="data-title">
+                        <a>leonidasesteban.com</a>
+                    </div>
+                    <p id="data-info">Accede a más de 120 proyectos que te ayudarán a mejorar <br> tus habilidades como desarrollador <br> Front-End.</p>
+                    <div class="data-actions">
+                        <button><img src="./icons/icon-github.svg" alt="">VER CODIGO</button>
+                        <button>VER PROYECTO</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <img class="card-img" src="./images/leo.png" alt="foto de leo">
+                    <p class="card-text">"Elisa ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses ".</p>
+                    <p class="card-footer">LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+                </div>
+            </div>
+            <div class="data flex-reverse">
+                <img src="./images/marvol.png" alt="marvol.com">
+                <div class="data-content">
+                    <div class="data-title">
+                        <a>MARVOL</a>
+                    </div>
+                    <p id="data-info">Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de televisión, videos y más oficiales de Marvol.</p>
+                    <div class="data-actions">
+                        <button><img src="./icons/icon-github.svg" alt="">VER CODIGO</button>
+                        <button>VER PROYECTO</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <img class="card-img" src="./images/user-marvol.png" alt="foto de jason lopez">
+                    <p class="card-text">"Elisa ha superado mis expectativas desde el diseño hasta el desarrollo."</p>
+                    <p class="card-footer">JASON LOPEZ / COFUNDADOR Y CEO MARVOL</p>
+                </div>
+            </div>
+            <div class="data">
+                <img src="./images/NETNET.png" alt="netnet.com">
+                <div class="data-content">
+                    <div class="data-title">
+                        <a>NETNET</a>
+                    </div>
+                    <p id="data-info">Películas y series ilimitadas y mucho más. Disfruta donde quieras. Cancela cuando quieras.</p>
+                    <div class="data-actions">
+                        <button><img src="./icons/icon-github.svg" alt="">VER CODIGO</button>
+                        <button>VER PROYECTO</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <img class="card-img" src="./images/user-netnet.png" alt="foto de marco cortez">
+                    <p class="card-text">"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que trabajamos."</p>
+                    <p class="card-footer">MARCO CORTEZ / NETNET</p>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="data data-form">
+            <div class="data-title">
+                <a>hablemos</a>
+            </div>
+            <p id="data-info">Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.</p>
+            <form action="" class="form">
+                <div class="field">
+                    <title id="name">Nombre completo</title>
+                    <input type="text" name="name" placeholder="Juan">
+                </div>
+                <div class="field">
+                    <title id="email">Correo electronico</title>
+                    <input type="text" name="email" placeholder="Juan@gmail.com">
+                </div>
+                <div class="field">
+                    <title id="mensaje">Mensaje</title>
+                    <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="data-actions">
+                    <button>ENVIAR MENSAJE</button>
+                </div>
+            </form>
+        </div>
+        <div class="footer">
+            <div class="social social-form">
+                <a href="tel:8097808081"><img src="./icons/icon-phone.svg" alt="phone icon"></a>
+                <a href="mailto:davidrd372@gmail.com"><img src="./icons/icon-important_mail.svg" alt="main icon"></a>
+                <a href="https://www.instagram.com/hdavidvc" target="_blank"><img src="./icons/icon-instagram.svg" alt="instagram icon"></a>
+                <a href="https://www.twitter.com/hdavidvc" target="_blank"><img src="./icons/icon-twitter_squared.svg" alt="twitter icon"></a>
+            </div>
+            <footer>
+                <p>Hecho con <span>♥</span> de Elisa. </p>
+                <p>Copyright 2021 - Todos los derechos reservados.</p>
+            </footer>
+            <h2 id="logo">LOGO</h2>
+        </div>
+    </div>
+
+    <script src="./css/js/index.js"></script>
+</body>
+
+</html>
